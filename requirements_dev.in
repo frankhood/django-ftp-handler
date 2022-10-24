@@ -7,5 +7,6 @@ zest.releaser
 bumpversion
 pre-commit
 coverage
-tox
-pip-tools~=5.5.0
+tox<3.26
+virtualenv<20.16
+pip-tools
