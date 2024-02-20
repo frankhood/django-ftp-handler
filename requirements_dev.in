@@ -1,5 +1,3 @@
--r requirements.txt
-
 invoke
 twine
 wheel

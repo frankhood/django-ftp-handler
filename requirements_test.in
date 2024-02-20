@@ -4,7 +4,6 @@ coverage
 mock
 flake8
 tox<3.26
-codecov
 virtualenv<20.16
 
 # Additional test requirements go here
