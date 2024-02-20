@@ -4,8 +4,6 @@
 #
 #    pip-compile --allow-unsafe --output-file=requirements_test.txt requirements_test.in
 #
-asgiref==3.4.1
-    # via django
 bcrypt==4.0.1
     # via paramiko
 bleach==4.1.0
@@ -26,8 +24,6 @@ charset-normalizer==2.0.12
     # via requests
 click==8.0.4
     # via pip-tools
-codecov==2.1.12
-    # via -r requirements_test.in
 colorama==0.4.5
     # via
     #   twine
@@ -36,13 +32,10 @@ coverage==6.2
     # via
     #   -r requirements_dev.in
     #   -r requirements_test.in
-    #   codecov
 cryptography==38.0.1
     # via paramiko
 distlib==0.3.6
     # via virtualenv
-django<4
-    # via -r requirements.txt
 docutils==0.18.1
     # via readme-renderer
 filelock==3.4.1
@@ -115,15 +108,12 @@ pyparsing==3.0.7
     # via packaging
 pysftp==0.2.9
     # via -r requirements.txt
-pytz==2022.5
-    # via django
 pyyaml==6.0
     # via pre-commit
 readme-renderer==34.0
     # via twine
 requests==2.27.1
     # via
-    #   codecov
     #   requests-toolbelt
     #   twine
     #   zest.releaser
@@ -137,8 +127,6 @@ six==1.16.0
     #   paramiko
     #   tox
     #   virtualenv
-sqlparse==0.4.3
-    # via django
 toml==0.10.2
     # via
     #   pre-commit
